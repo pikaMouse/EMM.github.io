@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3356d464-83eb-4b07-bbdf-288da409b499" name="Default" comment="做了少量的修改">
+    <list default="true" id="3356d464-83eb-4b07-bbdf-288da409b499" name="Default" comment="第二次修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/member.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/member.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,15 +43,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1240" />
-          <entry key="js" value="381" />
-          <entry key="txt" value="7" />
+          <entry key="js" value="385" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1240" />
-          <entry key="JavaScript" value="381" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="JavaScript" value="385" />
+          <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -85,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/member.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
+            <state relative-caret-position="234">
+              <caret line="236" column="21" lean-forward="true" selection-start-line="236" selection-start-column="21" selection-end-line="236" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -180,7 +179,7 @@
       <updated>1542387274143</updated>
       <workItem from="1542387277015" duration="55000" />
       <workItem from="1542418418885" duration="3856000" />
-      <workItem from="1542422663839" duration="13473000" />
+      <workItem from="1542422663839" duration="13860000" />
     </task>
     <task id="LOCAL-00001" summary="做了少量的修改">
       <created>1542438267369</created>
@@ -189,11 +188,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542438267369</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第二次修改">
+      <created>1542439974213</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542439974213</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17384000" />
+    <option name="totallyTimeSpent" value="17771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -226,7 +232,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="做了少量的修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="做了少量的修改" />
+    <MESSAGE value="第二次修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/title.png">
@@ -290,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/member.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
+        <state relative-caret-position="234">
+          <caret line="236" column="21" lean-forward="true" selection-start-line="236" selection-start-column="21" selection-end-line="236" selection-end-column="21" />
         </state>
       </provider>
     </entry>
