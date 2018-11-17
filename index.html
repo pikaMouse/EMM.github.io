@@ -147,6 +147,10 @@
             -webkit-transition: all 1s;
             transition: all 1s;
         }
+        .desc{
+            color: greenyellow;
+            font-size:1.4em;
+        }
     </style>
 </head>
 <body>
@@ -209,6 +213,7 @@
                 console.log(key);
                 choosed[key] = 1;
                 ret.push(member[id].trueSrc);
+                ret.push(member[id].desc);
                 list[id].style.color = color;
             }
             localStorage.setItem('choosed', JSON.stringify(choosed));
@@ -243,6 +248,7 @@
                     if (confirm('确定要重置么？所有之前的抽奖历史将被清除！')) {
                         localStorage.clear();
                         location.reload(true);
+                        this.num=0;
                     }
                 },
                 onClick: function (num) {
@@ -256,7 +262,7 @@
                         this.num+=1;
                         TagCanvas.SetSpeed('myCanvas', speed());
                         var ret = lottery(this.selected);
-                        $('#result').css('display', 'block').html('<img src="' + ret.join('"/><img src="') + '"/>');
+                        $('#result').css('display', 'block').html('<img src="' + ret.join('"/><div class="desc">') + '</div>');
                         TagCanvas.Reload('myCanvas');
                         setTimeout(function () {
                             localStorage.setItem(new Date().toString(), JSON.stringify(ret));
